@@ -41,8 +41,6 @@ class ImageStamp extends Component {
         });
       }
 
-
-
   render(){
     return(
     <div className="imageStampDiv">

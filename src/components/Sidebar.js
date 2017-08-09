@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import ToolSelector from "./ToolSelector";
 import BrushSize from "./BrushSize";
-import ImageStamp from "./ImageStamp"
+import ImageStamp from "./ImageStamp";
+import Color from "./ColorPicker";
 
 export default class Sidebar extends Component {
 	render() {
@@ -25,9 +26,14 @@ export default class Sidebar extends Component {
 					/>
 				</section>
 
+				<section>
+					<Color />
+				</section>
+
 				<section className="section section--image-stamp">
 					<ImageStamp />
 				</section>
+
 			</div>
 		)
 	}
