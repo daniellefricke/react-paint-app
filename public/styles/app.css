@@ -30,3 +30,8 @@
 }
 
 /* Candidate defined styles go here! */
+
+.sidebar img{
+	width: 200px;
+	height: 200px;
+}
