@@ -5,9 +5,13 @@ import * as TodoActions from "../actions";
 import Canvas from "../components/Canvas";
 import Sidebar from "../components/Sidebar";
 
+
+
+
 const App = ({tools, actions}) => (
+	
 	<div>
-		<Canvas 
+		<Canvas
 			tools={tools}
 		/>
 		<Sidebar
