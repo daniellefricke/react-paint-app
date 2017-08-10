@@ -44,6 +44,10 @@ button, .button{
 	border: .5px solid white;
 }
 
-div{
-	color: #3B3539;
+button:hover, .button:hover{
+	border: .5px solid blue;
+}
+
+button:active, .button:active{
+	border: .5px solid blue;
 }

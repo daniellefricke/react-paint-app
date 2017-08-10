@@ -5,7 +5,7 @@ class Save extends Component{
   render(){
     return(
     <div>
-      <h3>SAVE</h3>
+      <button>SAVE</button>
 
     </div>
   )

@@ -4,6 +4,7 @@ import BrushSize from "./BrushSize";
 import ImageStamp from "./ImageStamp";
 import Color from "./ColorPicker";
 import Reset from "./Reset";
+import Save from "./Save";
 
 export default class Sidebar extends Component {
 		handleColorChange(color) {
@@ -32,17 +33,26 @@ export default class Sidebar extends Component {
 				</section>
 
 				<section className="section section--brush-color">
+					<h3 className="section__heading">Select Color</h3>
 					<Color />
 				</section>
 
 				<section className="section section--image-stamp">
+					<h3 className="section__heading">Upload Image</h3>
 					<ImageStamp />
 				</section>
 
 
 				<section className="section section--reset-canvas">
+					<h3 className="section__heading">Reset</h3>
 					<Reset />
 				</section>
+
+				<section className="section section--save-canvas">
+					<h3 className="section__heading">Save</h3>
+					<Save />
+				</section>
+
 			</div>
 		)
 	}

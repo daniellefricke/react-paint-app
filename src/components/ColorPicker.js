@@ -16,7 +16,6 @@ class Color extends Component {
   render() {
     return (
     <div>
-      <h3>SELECT COLOR</h3>
         <div>
           <form action="/action_page.php" value={this.state.color} onDrag={this.onDrag.bind(this)} >
             <input type="color" name="favcolor" />

@@ -45,7 +45,6 @@ class ImageStamp extends Component {
     return(
     <div className="imageStampDiv">
   <div>
-  <h3>IMAGE STAMP</h3>
    <Dropzone multiple={false} accept="image/*" onDrop={this.onImageDrop}>
     <button multiple={false} accept="image/*" onDrop={this.onImageDrop}>UPLOAD IMAGE</button>
      <p>Drop an image or click to select a file to upload.</p>
