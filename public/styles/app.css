@@ -36,6 +36,10 @@
 	height: 200px;
 }
 
+.sidebar h3{
+	color: #494949;
+}
+
 button, .button{
 	display: inline-block;
 	padding: 5px;
@@ -50,4 +54,9 @@ button:hover, .button:hover{
 
 button:active, .button:active{
 	border: .5px solid blue;
+}
+
+.section{
+	padding-left: 10px;
+	border-bottom: 3px solid #494949;
 }
