@@ -3,8 +3,13 @@ import ToolSelector from "./ToolSelector";
 import BrushSize from "./BrushSize";
 import ImageStamp from "./ImageStamp";
 import Color from "./ColorPicker";
+import Reset from "./Reset";
 
 export default class Sidebar extends Component {
+		handleColorChange(color) {
+			// let color = {this.props.color}
+		}
+
 	render() {
 		const { tools, actions } = this.props;
 		const { brush_size } = tools;
@@ -26,7 +31,7 @@ export default class Sidebar extends Component {
 					/>
 				</section>
 
-				<section>
+				<section className="section section--brush-color">
 					<Color />
 				</section>
 
@@ -34,6 +39,10 @@ export default class Sidebar extends Component {
 					<ImageStamp />
 				</section>
 
+
+				<section className="section section--reset-canvas">
+					<Reset />
+				</section>
 			</div>
 		)
 	}

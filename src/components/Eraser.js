@@ -4,7 +4,7 @@ class Eraser extends Component{
   render(){
     return(
 
-      
+
     )
   }
 }

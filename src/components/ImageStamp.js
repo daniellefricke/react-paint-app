@@ -45,8 +45,9 @@ class ImageStamp extends Component {
     return(
     <div className="imageStampDiv">
   <div>
-  <h3>Image Stamp</h3>
+  <h3>IMAGE STAMP</h3>
    <Dropzone multiple={false} accept="image/*" onDrop={this.onImageDrop}>
+    <button multiple={false} accept="image/*" onDrop={this.onImageDrop}>UPLOAD IMAGE</button>
      <p>Drop an image or click to select a file to upload.</p>
    </Dropzone>
     </div>
@@ -55,7 +56,7 @@ class ImageStamp extends Component {
        {this.state.uploadedFileCloudinaryUrl === '' ? null :
        <div>
          <p>{this.state.uploadedFile.name}</p>
-         <img src={this.state.uploadedFileCloudinaryUrl} />
+         <img src={this.state.uploadedFileCloudinaryUrl} alt="Social Tables Challenge" />
        </div>}
      </div>
    </div>
