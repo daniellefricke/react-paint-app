@@ -2,6 +2,9 @@
 ## Applicant: Danielle Fricke
 danielle.fricke11@gmail.com | (Ph) 419.234.6823
 
+##Introduction
+This app is a code challenge for the 2017 Social Tables Apprenticeship application. The app is React/Redux and is a canvas app with multiple tools and features.
+
 ##Installation
 1. Fork repo (optional)
 2. Clone repo
@@ -11,22 +14,23 @@ danielle.fricke11@gmail.com | (Ph) 419.234.6823
 
 ##What's working
 1. All components are created as required in the challenge guidelines
-2. Reset, Brush Color, and Eraser
+2. Reset, Brush Color, Save, and Eraser
 3. Styling has been updated to closely resemble challenge mockup
 
-
 ##What's not working
-A major part of this project was getting features of child components up several levels to be leveraged by other components. For example, when the color picker has a new color, the canvas needs to recognize that color when the brush is used. And when a new image is uploaded, the canvas needs to recognize that when the image stamp tool is used. Passing this up multiple levels is best suited for Redux due to it supporting global state versus manually pushing up props though React.
+Currently, the image stamp feature is not fully functional. The image needs to be passed to the canvas when the STAMP tool is selected. Also, the image upload button needs styled.
 
 ##Answers to ST questions
 1. What aspect of your submission are you most proud of, and why?
-  - I'm proud of getting much of the React portion of this project setup. I learned the basic of React at GA and was relatively easily able to setup components and navigate the structure of the application.
+  - I am proud of the whole app but was really proud when I was able to implement the image uploader. This was a feature I hadn't handled before but found a great resource online that showed how this could be done.
 2. What would you work on if you had more time?  
-  - REDUX! While I understand benefits of Redux, what it accomplishes, and some of its fundamentals principles, I would like to work more on writing it and its implementation.
-3. Of all the resources (blog posts, tutorials, videos, mentors etc.) you referenced, what was most helpful for you?
-
-
+  - REDUX! While I understand benefits of Redux, what it accomplishes, and some of its fundamentals principles, I would like to work more on writing and implementation.
+3. Of all the resources (blog posts, tutorials, videos, mentors, etc.) you referenced, what was most helpful for you?
+  - I had two things that were most helpful - pair programming and leveraging a mentor. I think these being able to work with another dev and/or know when to ask for help are vital for any junior developer.
 
 ##Citing
 1. Color Picker - for implementing this feature, I leveraged W3School's color picker tutorial: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_color
 2. Image Uploader - for implementing this feature, I leveraged an example from CodePen: https://codepen.io/hartzis/pen/VvNGZP
+3. Save feature - for implementing this feature, I leveraged a StackOverflow forum:
+https://stackoverflow.com/questions/11112321/how-to-save-canvas-as-png-image
+4. Reset feature - for implementing this feature, I leveraged a StackOverflow forum: https://stackoverflow.com/questions/2142535/how-to-clear-the-canvas-for-redrawing

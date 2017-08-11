@@ -33,11 +33,10 @@
 	border-bottom: 3px solid #333333;
 }
 
-
 /* Candidate defined styles go here! */
-.sidebar img{
-	width: 200px;
-	height: 200px;
+img{
+	width: 150px;
+	height: 150px;
 }
 
 .sidebar h3{
@@ -45,12 +44,12 @@
 	margin-bottom: 10px;
 }
 
-/*Buttons need cleaned up - don't like current orgainization*/
 .tool_button{
 	display: inline-block;
 	padding: 5px;
 	margin: 1px;
 }
+
 button{
 	background: #888888;
 	display: inline-block;
