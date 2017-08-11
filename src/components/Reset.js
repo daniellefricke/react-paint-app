@@ -1,3 +1,5 @@
+// stackoverflow.com/questions/2142535/how-to-clear-the-canvas-for-redrawing
+
 import React, { Component } from "react";
 
 class Reset extends Component{

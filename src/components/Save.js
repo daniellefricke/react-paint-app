@@ -1,3 +1,5 @@
+// stackoverflow.com/questions/11112321/how-to-save-canvas-as-png-image
+
 import React, { Component } from "react";
 
 class Save extends Component{

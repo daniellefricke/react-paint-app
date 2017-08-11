@@ -1,15 +1,15 @@
 # Social Tables Front End Apprentice Challenge
 ## Applicant: Danielle Fricke
-danielle.fricke11@gmail.com | (Ph) 419.234.6823
+danielle.fricke11@gmail.com | (Ph) 419.234.6823 | Portfolio: daniellefricke.github.io
 
 ##Introduction
-This app is a code challenge for the 2017 Social Tables Apprentice Program. The app is React/Redux and is a canvas app with multiple tools and features.
+This app is a code challenge for the 2017 Social Tables Apprentice Program. The app is in React/Redux and is a canvas app with multiple tools and features.
 
 ##Installation
 1. Fork repo (optional)
 2. Clone repo
-3. Run npm Installation
-4. Run npm start - this will run the app in development mode
+3. Run 'npm install'
+4. Run 'npm start' - this will run the app in development mode
 5. Open localhost:3000 to render locally
 
 ##What's working
