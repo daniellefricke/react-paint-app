@@ -3,19 +3,20 @@
 import React, { PropTypes } from "react";
 
 export default function ColorPicker(props){
-    const { action, color } = props;
-    return (
-        <input
-            type="color"
-            className="favcolor"
-            defaultValue={color}
-            onChange={ (e) => {
-                action(e.target.value)
-            }}
-        />
-    )
+  const { action, color } = props;
+  return (
+    <input
+      type="color"
+      className="favcolor"
+      defaultValue={color}
+      onChange={ (e) => {
+        action(e.target.value)
+      }}
+    />
+  )
 }
+
 ColorPicker.propTypes = {
-    color: PropTypes.string.isRequired,
-    action: PropTypes.func.isRequired
+  color: PropTypes.string.isRequired,
+  action: PropTypes.func.isRequired
 }

@@ -85,11 +85,11 @@ export default class Canvas extends Component {
 				onMouseDown={ this.start }
 				onMouseUp={ this.end }
 				onMouseMove={ this.draw }
-			></canvas>
-		)
+				></canvas>
+			)
+		}
 	}
-}
 
-Canvas.propTypes = {
-	tools: PropTypes.object.isRequired
-}
+	Canvas.propTypes = {
+		tools: PropTypes.object.isRequired
+	}

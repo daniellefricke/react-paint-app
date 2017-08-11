@@ -15,9 +15,9 @@ class Save extends Component{
     return(
       <div>
         <button onClick={ this.saveCanvas }>Save</button>
-        </div>
-      )
-    }
+      </div>
+    )
   }
+}
 
 export default Save;

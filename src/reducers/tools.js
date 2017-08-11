@@ -10,21 +10,21 @@ const initialState = {
 export default function tools(state = initialState, action) {
 	switch (action.type) {
 		case CHANGE_SIZE:
-			return Object.assign({}, state, {
-				brush_size: action.text
-			})
+		return Object.assign({}, state, {
+			brush_size: action.text
+		})
 
 		case SELECT_TOOL:
-			return Object.assign({}, state, {
-				tool: action.text
-			})
+		return Object.assign({}, state, {
+			tool: action.text
+		})
 
-			case CHANGE_COLOR:
-				return Object.assign({}, state, {
-					color: action.text
-				})
+		case CHANGE_COLOR:
+		return Object.assign({}, state, {
+			color: action.text
+		})
 
 		default:
-			return state
+		return state
 	}
 }
