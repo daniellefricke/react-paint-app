@@ -34,7 +34,7 @@ class ImageStamp extends Component {
     let {imagePreviewUrl} = this.state;
     let $imagePreview = null;
     if (imagePreviewUrl) {
-      $imagePreview = (<img src={imagePreviewUrl} alt="Social Tables Challenge"/>);
+      $imagePreview = (<img src={imagePreviewUrl} alt="Social Tables Logo"/>);
     } else {
       $imagePreview = (<img src="./img/st-icon.png" className="previewImg" alt="Social Tables Challenge"></img>);
     }

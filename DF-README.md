@@ -11,7 +11,9 @@ danielle.fricke11@gmail.com | (Ph) 419.234.6823
 
 ##What's working
 1. All components are created as required in the challenge guidelines
-2. Styling has been updated to closely resemble challenge mockup
+2. Reset, Brush Color, and Eraser
+3. Styling has been updated to closely resemble challenge mockup
+
 
 ##What's not working
 A major part of this project was getting features of child components up several levels to be leveraged by other components. For example, when the color picker has a new color, the canvas needs to recognize that color when the brush is used. And when a new image is uploaded, the canvas needs to recognize that when the image stamp tool is used. Passing this up multiple levels is best suited for Redux due to it supporting global state versus manually pushing up props though React.
