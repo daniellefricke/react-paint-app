@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 
 class Reset extends Component{
+  resetCanvas(){
+    const resetCanvas = document.getElementById("resetCanvas")
+    const reset = resetCanvas.getContext("2d")
+    reset.clearRect(0, 0, resetCanvas.width, resetCanvas.height);
+}
   render(){
     return(
       <div>
         <button
           type="button"
-          // onClick={this.onClick.bind(this)}
+          onClick={ this.resetCanvas }
           >RESET</button>
         </div>
       )
@@ -16,4 +21,3 @@ class Reset extends Component{
 export default Reset
 
 // Look into Force Update functionality: https://facebook.github.io/react/docs/react-component.html#forceupdate
-// Need to pass action to parent so that it can be passed down to Canvas component

@@ -79,6 +79,8 @@ export default class Canvas extends Component {
 		return (
 			<canvas
 				className="canvas"
+				id="resetCanvas"
+				// set id to be able to grab element by id for reset
 				ref="canvas"
 				onMouseDown={ this.start }
 				onMouseUp={ this.end }

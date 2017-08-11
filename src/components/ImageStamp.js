@@ -2,7 +2,7 @@
 import React, {Component} from 'react'
 
 
-class ImageStamp extends React.Component {
+class ImageStamp extends Component {
   constructor(props) {
     super(props);
     this.state = {file: '',imagePreviewUrl: ''};
@@ -13,7 +13,7 @@ class ImageStamp extends React.Component {
 
     console.log('handle uploading-', this.state.file);
   }
-  
+
   _handleImageChange(e) {
     e.preventDefault();
 
@@ -34,9 +34,9 @@ class ImageStamp extends React.Component {
     let {imagePreviewUrl} = this.state;
     let $imagePreview = null;
     if (imagePreviewUrl) {
-      $imagePreview = (<img src={imagePreviewUrl} />);
+      $imagePreview = (<img src={imagePreviewUrl} alt="Social Tables Challenge"/>);
     } else {
-      $imagePreview = (<img src="./img/st-icon.png" className="previewImg"></img>);
+      $imagePreview = (<img src="./img/st-icon.png" className="previewImg" alt="Social Tables Challenge"></img>);
     }
 
     return (
