@@ -11,7 +11,7 @@ export default class Sidebar extends Component {
 
 	render() {
 		const { tools, actions } = this.props;
-		const { brush_size } = tools;
+		const { brush_size, color } = tools;
 		return (
 			<div className="sidebar">
 				<section className="section section--tool-selector">
@@ -32,7 +32,11 @@ export default class Sidebar extends Component {
 
 				<section className="section section--brush-color">
 					<h3 className="section__heading">BRUSH COLOR</h3>
-					<Color />
+					<Color
+						color={ color }
+						action={ actions.changeColor }
+					/>
+
 				</section>
 
 				<section className="section section--image-stamp">

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class Eraser extends Component{
+class Eraser extends React.Component{
   render(){
     return(
-      
+
     )
   }
 }
