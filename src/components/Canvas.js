@@ -23,6 +23,7 @@ export default class Canvas extends Component {
 	}
 
 	getColor() {
+		if ( this.props.tools.tool === ERASER) return "white";
 		return this.props.tools.color;
 	}
 

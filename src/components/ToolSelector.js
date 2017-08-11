@@ -9,7 +9,7 @@ export default function ToolSelector(props) {
 				<button type="button" name="tool" id="brush-select"
 					value={BRUSH}
 					checked={tool === BRUSH}
-					onChange={ (e) => { action(e.target.value) } } >BRUSH</button>
+					onClick={ (e) => { action(e.target.value) } } >BRUSH</button>
 					<label htmlFor="brush-select"></label>
 				</div>
 
@@ -17,7 +17,7 @@ export default function ToolSelector(props) {
 					<button type="button" name="tool" id="stamp-select"
 						value={STAMP}
 						checked={tool === STAMP}
-						onChange={ (e) => { action(e.target.value) } }>STAMP</button>
+						onClick={ (e) => { action(e.target.value) } }>STAMP</button>
 						<label htmlFor="stamp-select"></label>
 					</div>
 
@@ -25,7 +25,7 @@ export default function ToolSelector(props) {
 						<button type="button" name="tool" id="eraser-select"
 							value={ERASER}
 							checked={tool === ERASER}
-							onChange={ (e) => { action(e.target.value) } }>ERASER</button>
+							onClick={ (e) => { action(e.target.value) } }>ERASER</button>
 							<label htmlFor="eraser-select"></label>
 						</div>
 					</div>
