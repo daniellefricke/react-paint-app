@@ -27,10 +27,14 @@
 	min-height: 100px;
 	width: 100%;
 	color: white;
+	/*added section css - combined to reduce redundancy*/
+	padding-top: 5px;
+	padding-left: 10px;
+	border-bottom: 3px solid #333333;
 }
 
-/* Candidate defined styles go here! */
 
+/* Candidate defined styles go here! */
 .sidebar img{
 	width: 200px;
 	height: 200px;
@@ -41,25 +45,24 @@
 }
 
 /*Buttons need cleaned up - don't like current orgainization*/
-button, .button{
+.tool_button{
 	display: inline-block;
 	padding: 5px;
 	margin: 1px;
+}
+button{
+	display: inline-block;
+	padding: 5px 10px;
+	margin: auto;
 	border-radius: 5px;
 	border: .5px solid white;
 	font-family: 'Open Sans', sans-serif;
 }
 
-button:hover, .button:hover{
+button:hover{
 	border: .5px solid blue;
 }
 
-button:active, .button:active{
+button:active{
 	border: .5px solid blue;
-}
-
-.section{
-	padding-top: 5px;
-	padding-left: 10px;
-	border-bottom: 3px solid #333333;
 }

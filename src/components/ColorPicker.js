@@ -8,7 +8,7 @@ class Color extends Component {
     this.state = {
       color: ''
     }
-}
+  }
   onDrag(color, c) {
     this.setState({
       color
@@ -17,14 +17,14 @@ class Color extends Component {
 
   render() {
     return (
-    <div>
+      <div>
         <div>
           <form action="/action_page.php" value={this.state.color} onDrag={this.onDrag.bind(this)} >
-            <input type="color" name="favcolor" />
-            </form>
-       </div>
-       {this.state.color}
-     </div>
+          <input type="color" name="favcolor" />
+        </form>
+      </div>
+      {this.state.color}
+    </div>
   )}
 }
 
