@@ -3,7 +3,7 @@
 danielle.fricke11@gmail.com | (Ph) 419.234.6823
 
 ##Introduction
-This app is a code challenge for the 2017 Social Tables Apprenticeship application. The app is React/Redux and is a canvas app with multiple tools and features.
+This app is a code challenge for the 2017 Social Tables Apprentice Program. The app is React/Redux and is a canvas app with multiple tools and features.
 
 ##Installation
 1. Fork repo (optional)
